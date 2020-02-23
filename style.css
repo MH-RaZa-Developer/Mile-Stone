@@ -1,0 +1,195 @@
+body{
+    margin:0;
+}
+/*******Header Area**********/
+
+.header-area{
+    background-image: url("images/header-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.header-area .text-area{
+    margin:150px;
+    float: left;
+    overflow: hidden;
+}
+.header-area .text-area h4{
+    font-size:28px;
+    margin-bottom:0;
+}
+.header-area .text-area h1{
+    font-size:46px;
+    font-weight: bold;
+    color:red;
+}
+.header-area .text-area p{
+    color:grey;
+    text-transform: capitalize;
+}
+.header-area .text-area button{
+    text-decoration:none;
+    font-size:16px;
+    background:red;
+    padding:10px;
+    border-radius:5px;
+    color:#fff;
+    text-transform: uppercase;
+    border:none;
+}
+.header-area .img-area img{
+    width:30%;
+    margin-top:50px;
+}
+
+/*******Middle Area********/
+
+.middle-area{
+    background-image: url("images/biography-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.middle-area .img-area img{
+    width:30%;
+    float:left;
+    overflow: hidden;
+    margin:150px;
+}
+.middle-area .text-area{
+    margin-top:300px;
+    text-align: justify;
+    margin-right:100px;
+}
+.middle-area .text-area h2{
+    font-size:35px;
+    font-weight: 700;
+}
+.middle-area .text-area p{
+    color:grey;
+    line-height: 22px;
+}
+.middle-area .text-area button{
+    text-decoration:none;
+    font-size:16px;
+    background:red;
+    padding:10px;
+    border-radius:5px;
+    color:#fff;
+    text-transform: uppercase;
+    border:none;
+}
+
+/*******Latest Work*********/
+
+.work-area{
+    background-image: url("images/latest-work-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:50px;
+    overflow: hidden;
+}
+.work-area h2{
+    text-align: center;
+    font-size:36px;
+}
+.work-area .item img{
+    width:30%;
+    margin:1%;
+    margin-top:30px;
+    float:left;
+    overflow: hidden;
+}
+
+/*******Client Area*********/
+
+.client-area{
+    background-image: url("images/footer-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:50px;
+    text-align: center;
+    overflow: hidden;
+}
+.client-area h2{
+    font-size:36px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.client-area .client-site{
+    background:red;
+    width:50%;
+    margin:auto;
+    padding:40px;
+    display:inline-block
+    font-size:34px;
+    color:#fff;
+    border-radius:10px;
+}
+.client-site p{
+    font-size:18px;
+}
+.client-site h4{
+    font-size:34px;
+    margin:0;
+}
+footer p{
+    text-align: center;
+    padding:30px;
+    font-size:18px;
+    font-weight: bold;
+    color:slategrey;
+}
+
+
+/*******Responsive*******/
+
+@media all and (max-width:768px){
+    .header-area .img-area img{
+        margin: auto;
+        padding-left:150px;
+    }
+    .middle-area .text-area{
+        margin-top:0;
+        margin-right: 25px;
+        padding:15px;
+    }
+    .client-area .client-site{
+        margin:0;
+        padding:15px;
+        font-size:20px;
+        width:100%;
+    }
+    .client-site h4{
+        font-size:20px;
+        margin:0;
+    }
+}
+
+@media all and (max-width:420px){
+    .header-area .text-area{
+        float:none;
+        width:100%;
+        padding:10px;
+        margin:0;
+    }
+    .header-area .img-area img{
+        margin: auto;
+        padding-left:150px;
+    }
+    .middle-area .text-area{
+        margin-top:0;
+        margin-right: 0;
+        padding:15px;
+    }
+    .client-area .client-site{
+        margin:0;
+        padding:15px;
+        font-size:20px;
+        width:100%;
+    }
+    .client-site h4{
+        font-size:20px;
+        margin:0;
+    }
+}
